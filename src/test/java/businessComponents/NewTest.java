@@ -12,5 +12,6 @@ public class NewTest {
 	  driver = new ChromeDriver();
 	  driver.get("http://toolsqa.com/");
 	  driver.manage().window().maximize();
+	  System.out.println("Hello");
   }
 }
